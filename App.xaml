@@ -9,6 +9,28 @@
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
+
+            <Style x:Key="bgEntrys" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="Background" Value="#ccd5f0" />
+                <Setter Property="Padding" Value="10,0,10,0" />
+                <Setter Property="BorderColor" Value="#5b9ad4"/>
+            </Style>
+
+            <Style x:Key="Entrys" TargetType="Entry">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="Background" Value="transparent" />
+                <Setter Property="Keyboard" Value="Numeric" />
+            </Style>
+
+            <Style x:Key="Buttons" TargetType="Button">
+                <Setter Property="Margin" Value="0,0,0,10" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="Background" Value="#ffd76a" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>
